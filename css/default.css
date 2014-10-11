@@ -1,0 +1,304 @@
+﻿html, body {
+    font-family:'Segoe UI',Arial,Helvetica;
+    font-size:10px;
+}
+
+
+#loginDiv
+{
+    width:200px;
+    height:50%;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+}
+
+#logControls
+{
+    width:200px;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:left;
+}
+
+.loginBoxes textarea
+{
+    width:200px;
+    font-family:'Segoe UI',Arial,Helvetica;
+    font-size:10px;
+}
+
+#loginDetails
+{
+    /*float:right;*/
+    position:absolute;
+    width:300px;
+    top: 0;
+    right: 0;
+}
+
+#lblLogin
+{
+    display:inline-block;
+    text-align:right;
+    vertical-align:middle;
+    position:fixed;
+    right:45px;
+}
+
+#btnLogout
+{
+    float:right;
+    right:0;
+    position:fixed;
+}
+
+
+#btnExportExcel
+{
+    height:40px;
+}
+
+#uploadControls
+{
+    width:200px;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:left;
+}
+
+span 
+{
+    display:block;
+    word-wrap: break-word;
+}
+
+.FilterTextBoxes
+{
+    font-family:'Segoe UI',Arial,Helvetica;
+    font-size:10px;
+    color:Black;
+    margin-top:5px;
+}
+
+.EditTextBoxes 
+{
+    font-family:'Segoe UI',Arial,Helvetica;
+    font-size:10px;
+    color:Black;
+    margin-top:5px;
+}
+
+.Labels
+{
+    margin-top:5px;
+    display:inline-block;
+}
+
+.ComboBoxes 
+{
+    padding:0 0 0 0;
+    font-family:'Segoe UI',Arial,Helvetica;
+    font-size:10px;
+    color:Black;
+}
+
+.EditComboBoxes 
+{
+    font-family:'Segoe UI',Arial,Helvetica;
+    font-size:10px;
+    color:Black;
+}
+
+.ComboBoxes .ajax__combobox_textboxcontainer input {
+    padding:0 0 0 0;
+    font-family:'Segoe UI',Arial,Helvetica;
+    font-size:10px;
+    color:Black;
+}
+
+.ComboBoxes .ajax__combobox_buttoncontainer button {
+    padding:0 0 0 0;
+    font-family:'Segoe UI',Arial,Helvetica;
+    font-size:10px;
+    color:Black;
+}
+
+.ComboBoxes .ajax__combobox_itemlist {
+    padding:0 0 0 0;
+    font-family:'Segoe UI',Arial,Helvetica;
+    font-size:10px;
+    color:Black;
+}
+
+.EditComboBoxes .ajax__combobox_textboxcontainer input {
+    padding:0 0 0 0;
+    font-family:'Segoe UI',Arial,Helvetica;
+    font-size:10px;
+    color:Black;
+}
+
+.EditComboBoxes .ajax__combobox_buttoncontainer button {
+    padding:0 0 0 0;
+    font-family:'Segoe UI',Arial,Helvetica;
+    font-size:10px;
+    color:Black;
+}
+
+.EditComboBoxes .ajax__combobox_itemlist {
+    padding:0 0 0 0;
+    font-family:'Segoe UI',Arial,Helvetica;
+    font-size:10px;
+    color:Black;
+}
+
+.RogueComboBox
+{
+    font-family:'Segoe UI',Arial,Helvetica;
+    font-size:10px;
+    color:Black;
+}
+
+.RogueComboBox .ajax__combobox_inputcontainer {
+    padding:0 0 0 0;
+    font-family:'Segoe UI',Arial,Helvetica;
+    font-size:10px;
+    color:Black;
+    top:0px !important;
+}
+
+.RogueComboBox .ajax__combobox_textboxcontainer input {
+    padding:0 0 0 0;
+    font-family:'Segoe UI',Arial,Helvetica;
+    font-size:10px;
+    color:Black;
+}
+
+.RogueComboBox .ajax__combobox_buttoncontainer button {
+    padding:0 0 0 0;
+    font-family:'Segoe UI',Arial,Helvetica;
+    font-size:10px;
+    color:Black;
+}
+
+.RogueComboBox .ajax__combobox_itemlist {
+    padding:0 0 0 0;
+    font-family:'Segoe UI',Arial,Helvetica;
+    font-size:10px;
+    color:Black;
+}
+
+.Buttons
+{
+    /*border:2 solid;*/
+    width:40px;
+    font-family:'Segoe UI',Arial,Helvetica;
+    font-size:10px;
+    text-align:center;
+    padding:0px;
+}
+
+TreeView 
+{
+    font-family:'Segoe UI',Arial,Helvetica;
+    font-size:10px;
+    color:Black;
+}
+
+.treeNode
+{
+    font-family:'Segoe UI',Arial,Helvetica;
+    font-size:10px;
+    color:Black;
+}
+
+#pnlPopTM
+{
+    font-family:'Segoe UI',Arial,Helvetica;
+    font-size:10px;
+    color:Black;
+}
+
+.modalBackground
+{
+    background-color: Black;
+    filter: alpha(opacity=40);
+    opacity: 0.4;
+}
+.modalPopup
+{
+    background-color: #FFFFFF;
+    width: 700px;
+    border: 3px solid #0DA9D0;
+}
+.modalPopup .header
+{
+    background-color: #2FBDF1;
+    height: 30px;
+    color: White;
+    line-height: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+.modalPopup .body
+{
+    min-height: 20px;
+    line-height: 18px;
+    text-align: center;
+    padding:5px;
+}
+.modalPopup .footer
+{
+    padding: 3px;
+}
+.modalPopup .button
+{
+    height: 23px;
+    color: White;
+    line-height: 23px;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #9F9F9F;
+    border: 1px solid #5C5C5C;
+}
+.modalPopup td
+{
+    text-align:left;
+}
+
+.modalPopup .tdFieldName
+{
+    text-align:right;
+    vertical-align:top;
+    padding-right:5px;
+    width:125px;
+}
+
+.modalPopup .tdFieldValue
+{
+    text-align:left;
+    vertical-align:top;
+    width:400px;
+}
+
+.dateValidator
+{
+    font-size:12px;
+    color:red;
+}
+
+.headerPanels
+{
+    height:18px;
+    background-color:Gray;
+    color:White;
+    font-weight:bold;
+    font-size:18;
+    border-bottom:1px solid White;
+    padding-left:5px;
+}
